@@ -1,0 +1,15 @@
+C:\Users\Rickfer\source\repos\Circles\Circles\bin\Debug\net8.0\Circles.exe
+C:\Users\Rickfer\source\repos\Circles\Circles\bin\Debug\net8.0\Circles.deps.json
+C:\Users\Rickfer\source\repos\Circles\Circles\bin\Debug\net8.0\Circles.runtimeconfig.json
+C:\Users\Rickfer\source\repos\Circles\Circles\bin\Debug\net8.0\Circles.dll
+C:\Users\Rickfer\source\repos\Circles\Circles\bin\Debug\net8.0\Circles.pdb
+C:\Users\Rickfer\source\repos\Circles\Circles\obj\Debug\net8.0\Circles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rickfer\source\repos\Circles\Circles\obj\Debug\net8.0\Circles.AssemblyInfoInputs.cache
+C:\Users\Rickfer\source\repos\Circles\Circles\obj\Debug\net8.0\Circles.AssemblyInfo.cs
+C:\Users\Rickfer\source\repos\Circles\Circles\obj\Debug\net8.0\Circles.csproj.CoreCompileInputs.cache
+C:\Users\Rickfer\source\repos\Circles\Circles\obj\Debug\net8.0\Circles.sourcelink.json
+C:\Users\Rickfer\source\repos\Circles\Circles\obj\Debug\net8.0\Circles.dll
+C:\Users\Rickfer\source\repos\Circles\Circles\obj\Debug\net8.0\refint\Circles.dll
+C:\Users\Rickfer\source\repos\Circles\Circles\obj\Debug\net8.0\Circles.pdb
+C:\Users\Rickfer\source\repos\Circles\Circles\obj\Debug\net8.0\Circles.genruntimeconfig.cache
+C:\Users\Rickfer\source\repos\Circles\Circles\obj\Debug\net8.0\ref\Circles.dll
