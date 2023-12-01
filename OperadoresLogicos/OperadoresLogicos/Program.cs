@@ -44,3 +44,4 @@ Console.WriteLine("XOR negado da: " + resXorNeg); // da true porque son opuestos
 Console.WriteLine("Combinación de operadores lógicos");
 bool resultAndOr = (valor1 && valor2()) || valor3;
 Console.WriteLine("El resultado And or es: " + resultAndOr);
+System.Console.WriteLine("que diferencia tiene"); // no tiene ninguna diferencia
