@@ -5,7 +5,8 @@ Console.WriteLine("Bienvenido al juego de 21 BlackJack");
 int totalJugador = 0;
 int totalDealer = 0;
 string message = "";
-string? switchControl = "gato";
+string? switchControl = "";
+var random = new Random();
 
 
 Console.WriteLine("Bienvenido al CASINO \n Escriba menú para ingresar");
@@ -22,8 +23,8 @@ while (true)
   else if (Convert.ToInt32(switchControl) == 21 && totalJugador < 22 && totalDealer < 22 )
   {
     Console.WriteLine("Toma tu carta");
-    int barajaJugador = new Random().Next(1, 11);
-    int barajaDealer = new Random().Next(1, 11);
+    int barajaJugador = random.Next(1, 11);
+    int barajaDealer = random.Next(1, 11);
     totalJugador = totalJugador + barajaJugador;
     totalDealer = totalDealer + barajaDealer;
     Console.WriteLine($"Tu carta es {barajaJugador} y el total que tienes es de {totalJugador}");
