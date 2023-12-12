@@ -1,4 +1,6 @@
-﻿var flyPower = new SuperPower();
+﻿using SuperHeroesApp.Models;
+
+var flyPower = new SuperPower();
 flyPower.Name = "Fly Power";
 flyPower.Description = "The hability to levitate in the air";
 flyPower.Level = LevelOfPower.Level1;
@@ -42,53 +44,3 @@ hulk.Powers = hulkSuperPowers;
 
 Console.WriteLine(superman.UseSuperPowers());
 
-
-class SuperHero
-{
-  public int Id;
-  public string Name;
-  public string RealName;
-  public string City;
-  public List<SuperPower> Powers;
-  public bool CanFly;
-
-  public SuperHero()
-  {
-    Id = 1;
-    // we initialize a new list of SuperPowers with zero values
-    Powers = new List<SuperPower>();
-    CanFly = false;
-  }
-
-  public string UseSuperPowers()
-  {
-    string message = $"{Name} have this list of super powers: ";
-    foreach (var power in Powers)
-    {
-      message = message + $"{power.Name}, ";
-    }
-
-    return message;
-  }
-}
-
-// Creat a class only for the type SuperPowers
-class SuperPower
-{
-  public string? Name;
-  public string Description;
-  public LevelOfPower Level;
-
-  public SuperPower()
-  {
-    Level = LevelOfPower.Level1;
-  }
-}
-
-// with 'enum' we can create a new value type only for the Level in the class SuperPower
-enum LevelOfPower
-{
-  Level1,
-  Level2,
-  Level3
-}
