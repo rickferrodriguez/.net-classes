@@ -40,7 +40,7 @@ hulk.City = "New York";
 hulk.CanFly = false;
 hulk.Powers = hulkSuperPowers;
 
-Console.WriteLine(Convert.ToString(superman.UseSuperPowers()));
+Console.WriteLine(superman.UseSuperPowers());
 
 
 class SuperHero
