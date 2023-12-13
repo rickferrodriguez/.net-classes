@@ -25,7 +25,7 @@ superManSuperPowers.Add(superStrong);
 superManSuperPowers.Add(bulletResistance);
 
 superman.Id = 1;
-superman.Name = "SuperMan";
+superman.Name = "SuperMan    ";
 superman.RealName = "Clark Kent";
 superman.City = "Small Ville";
 superman.Powers = superManSuperPowers;

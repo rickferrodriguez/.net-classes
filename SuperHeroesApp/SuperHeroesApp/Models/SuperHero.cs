@@ -2,8 +2,27 @@
 {
   public class SuperHero
   {
+    private string _name;
     public int Id;
-    public string Name;
+
+    public string Name
+    {
+      get => _name;
+      set
+      {
+        if (!string.IsNullOrWhiteSpace(value))
+        {
+          _name = value.Trim();
+        }
+        else
+        {
+          Console.WriteLine("Please, type a valid name");
+        }
+      }
+    }
+
+    private string NameAndRealName => $"{Name} ({RealName})";
+
     public string RealName;
     public string City;
     public List<SuperPower> Powers;
@@ -19,7 +38,7 @@
 
     public string UseSuperPowers()
     {
-      string message = $"{Name} have this list of super powers: ";
+      string message = $"{NameAndRealName} have this list of super powers: ";
       foreach (var power in Powers)
       {
         message = message + $"{power.Name}, ";
