@@ -17,6 +17,18 @@ bulletResistance.Level = LevelOfPower.Level3;
 
 var superman = new SuperHero();
 var hulk = new SuperHero();
+// antiheroes
+var joker = new AntiHero();
+
+var jokerPowers = new List<SuperPower>();
+jokerPowers.Add(superStrong);
+
+joker.Id = 1;
+joker.Name = "Joker";
+joker.RealName = "Jack Napier";
+joker.CanFly = false;
+joker.City = "Gotham";
+joker.Powers = jokerPowers;
 
 // we create a variable to have a list of powers only for superman
 List<SuperPower> superManSuperPowers = new List<SuperPower>();
@@ -43,4 +55,5 @@ hulk.CanFly = false;
 hulk.Powers = hulkSuperPowers;
 
 Console.WriteLine(superman.UseSuperPowers());
+Console.WriteLine(joker.StringNemesis("Batman"));
 
